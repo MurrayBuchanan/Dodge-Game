@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB66B63265D1A160026370B /* astroSpace.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB66B62265D1A160026370B /* astroSpace.ttf */; };
+		ECB90AD024A8CC1A00C1FB5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB90ACF24A8CC1A00C1FB5D /* AppDelegate.swift */; };
+		ECB90AD624A8CC1A00C1FB5D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB90AD524A8CC1A00C1FB5D /* GameScene.swift */; };
+		ECB90AD824A8CC1A00C1FB5D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB90AD724A8CC1A00C1FB5D /* GameViewController.swift */; };
+		ECB90ADB24A8CC1A00C1FB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB90AD924A8CC1A00C1FB5D /* Main.storyboard */; };
+		ECB90ADD24A8CC1C00C1FB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB90ADC24A8CC1C00C1FB5D /* Assets.xcassets */; };
+		ECB90AE024A8CC1C00C1FB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB90ADE24A8CC1C00C1FB5D /* LaunchScreen.storyboard */; };
+		ECD4665D293C561600AF0E67 /* trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECD4665B293C561600AF0E67 /* trail.sks */; };
+		ECD4665E293C561600AF0E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD4665C293C561600AF0E67 /* Assets.xcassets */; };
+		ECF0399E2A5248DA00FAEC9F /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0399D2A5248DA00FAEC9F /* UI.swift */; };
+		ECF039A02A52492D00FAEC9F /* GameMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0399F2A52492D00FAEC9F /* GameMetrics.swift */; };
+		ECF039A22A5249D100FAEC9F /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF039A12A5249D100FAEC9F /* Haptics.swift */; };
+		ECF039AA2A524BB700FAEC9F /* LugaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF039A92A524BB700FAEC9F /* LugaWatchApp.swift */; };
+		ECF039AC2A524BB700FAEC9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF039AB2A524BB700FAEC9F /* ContentView.swift */; };
+		ECF039AE2A524BB900FAEC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF039AD2A524BB900FAEC9F /* Assets.xcassets */; };
+		ECF039B12A524BB900FAEC9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF039B02A524BB900FAEC9F /* Preview Assets.xcassets */; };
+		ECF039BB2A524BB900FAEC9F /* LugaWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF039BA2A524BB900FAEC9F /* LugaWatch_Watch_AppTests.swift */; };
+		ECF039C52A524BB900FAEC9F /* LugaWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF039C42A524BB900FAEC9F /* LugaWatch_Watch_AppUITests.swift */; };
+		ECF039C72A524BB900FAEC9F /* LugaWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF039C62A524BB900FAEC9F /* LugaWatch_Watch_AppUITestsLaunchTests.swift */; };
+		ECF039CA2A524BB900FAEC9F /* LugaWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ECF039A72A524BB700FAEC9F /* LugaWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB90AE724A8CC1D00C1FB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB90AC424A8CC1A00C1FB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB90ACB24A8CC1A00C1FB5D;
+			remoteInfo = Spin;
+		};
+		ECB90AF224A8CC1D00C1FB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB90AC424A8CC1A00C1FB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB90ACB24A8CC1A00C1FB5D;
+			remoteInfo = Spin;
+		};
+		ECF039B72A524BB900FAEC9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB90AC424A8CC1A00C1FB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF039A62A524BB700FAEC9F;
+			remoteInfo = "LugaWatch Watch App";
+		};
+		ECF039C12A524BB900FAEC9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB90AC424A8CC1A00C1FB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF039A62A524BB700FAEC9F;
+			remoteInfo = "LugaWatch Watch App";
+		};
+		ECF039C82A524BB900FAEC9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB90AC424A8CC1A00C1FB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF039A62A524BB700FAEC9F;
+			remoteInfo = "LugaWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECF039CE2A524BB900FAEC9F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ECF039CA2A524BB900FAEC9F /* LugaWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECB66B62265D1A160026370B /* astroSpace.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = astroSpace.ttf; sourceTree = "<group>"; };
+		ECB90ACC24A8CC1A00C1FB5D /* Luga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB90ACF24A8CC1A00C1FB5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB90AD524A8CC1A00C1FB5D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ECB90AD724A8CC1A00C1FB5D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ECB90ADA24A8CC1A00C1FB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB90ADC24A8CC1C00C1FB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB90ADF24A8CC1C00C1FB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB90AE124A8CC1C00C1FB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB90AE624A8CC1D00C1FB5D /* LugaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LugaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB90AF124A8CC1D00C1FB5D /* LugaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LugaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD4665B293C561600AF0E67 /* trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = trail.sks; sourceTree = "<group>"; };
+		ECD4665C293C561600AF0E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF0399D2A5248DA00FAEC9F /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		ECF0399F2A52492D00FAEC9F /* GameMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMetrics.swift; sourceTree = "<group>"; };
+		ECF039A12A5249D100FAEC9F /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		ECF039A72A524BB700FAEC9F /* LugaWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LugaWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF039A92A524BB700FAEC9F /* LugaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaWatchApp.swift; sourceTree = "<group>"; };
+		ECF039AB2A524BB700FAEC9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECF039AD2A524BB900FAEC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF039B02A524BB900FAEC9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECF039B62A524BB900FAEC9F /* LugaWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LugaWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF039BA2A524BB900FAEC9F /* LugaWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		ECF039C02A524BB900FAEC9F /* LugaWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LugaWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF039C42A524BB900FAEC9F /* LugaWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		ECF039C62A524BB900FAEC9F /* LugaWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB90AC924A8CC1A00C1FB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB90AE324A8CC1D00C1FB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB90AEE24A8CC1D00C1FB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039A42A524BB700FAEC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039B32A524BB900FAEC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039BD2A524BB900FAEC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB90AC324A8CC1A00C1FB5D = {
+			isa = PBXGroup;
+			children = (
+				ECD4665B293C561600AF0E67 /* trail.sks */,
+				ECD4665C293C561600AF0E67 /* Assets.xcassets */,
+				ECB90ACE24A8CC1A00C1FB5D /* Spin */,
+				ECF039A82A524BB700FAEC9F /* LugaWatch Watch App */,
+				ECF039B92A524BB900FAEC9F /* LugaWatch Watch AppTests */,
+				ECF039C32A524BB900FAEC9F /* LugaWatch Watch AppUITests */,
+				ECB90ACD24A8CC1A00C1FB5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB90ACD24A8CC1A00C1FB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB90ACC24A8CC1A00C1FB5D /* Luga.app */,
+				ECB90AE624A8CC1D00C1FB5D /* LugaTests.xctest */,
+				ECB90AF124A8CC1D00C1FB5D /* LugaUITests.xctest */,
+				ECF039A72A524BB700FAEC9F /* LugaWatch Watch App.app */,
+				ECF039B62A524BB900FAEC9F /* LugaWatch Watch AppTests.xctest */,
+				ECF039C02A524BB900FAEC9F /* LugaWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB90ACE24A8CC1A00C1FB5D /* Spin */ = {
+			isa = PBXGroup;
+			children = (
+				ECB66B62265D1A160026370B /* astroSpace.ttf */,
+				ECB90ACF24A8CC1A00C1FB5D /* AppDelegate.swift */,
+				ECB90AD924A8CC1A00C1FB5D /* Main.storyboard */,
+				ECB90ADE24A8CC1C00C1FB5D /* LaunchScreen.storyboard */,
+				ECB90AE124A8CC1C00C1FB5D /* Info.plist */,
+				ECB90AD724A8CC1A00C1FB5D /* GameViewController.swift */,
+				ECB90AD524A8CC1A00C1FB5D /* GameScene.swift */,
+				ECF0399D2A5248DA00FAEC9F /* UI.swift */,
+				ECF039A12A5249D100FAEC9F /* Haptics.swift */,
+				ECF0399F2A52492D00FAEC9F /* GameMetrics.swift */,
+				ECB90ADC24A8CC1C00C1FB5D /* Assets.xcassets */,
+			);
+			path = Spin;
+			sourceTree = "<group>";
+		};
+		ECF039A82A524BB700FAEC9F /* LugaWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				ECF039A92A524BB700FAEC9F /* LugaWatchApp.swift */,
+				ECF039AB2A524BB700FAEC9F /* ContentView.swift */,
+				ECF039AD2A524BB900FAEC9F /* Assets.xcassets */,
+				ECF039AF2A524BB900FAEC9F /* Preview Content */,
+			);
+			path = "LugaWatch Watch App";
+			sourceTree = "<group>";
+		};
+		ECF039AF2A524BB900FAEC9F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECF039B02A524BB900FAEC9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECF039B92A524BB900FAEC9F /* LugaWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF039BA2A524BB900FAEC9F /* LugaWatch_Watch_AppTests.swift */,
+			);
+			path = "LugaWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		ECF039C32A524BB900FAEC9F /* LugaWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF039C42A524BB900FAEC9F /* LugaWatch_Watch_AppUITests.swift */,
+				ECF039C62A524BB900FAEC9F /* LugaWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "LugaWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB90ACB24A8CC1A00C1FB5D /* Luga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB90AFA24A8CC1D00C1FB5D /* Build configuration list for PBXNativeTarget "Luga" */;
+			buildPhases = (
+				ECB90AC824A8CC1A00C1FB5D /* Sources */,
+				ECB90AC924A8CC1A00C1FB5D /* Frameworks */,
+				ECB90ACA24A8CC1A00C1FB5D /* Resources */,
+				ECF039CE2A524BB900FAEC9F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF039C92A524BB900FAEC9F /* PBXTargetDependency */,
+			);
+			name = Luga;
+			productName = Spin;
+			productReference = ECB90ACC24A8CC1A00C1FB5D /* Luga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB90AE524A8CC1D00C1FB5D /* LugaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB90AFD24A8CC1D00C1FB5D /* Build configuration list for PBXNativeTarget "LugaTests" */;
+			buildPhases = (
+				ECB90AE224A8CC1D00C1FB5D /* Sources */,
+				ECB90AE324A8CC1D00C1FB5D /* Frameworks */,
+				ECB90AE424A8CC1D00C1FB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB90AE824A8CC1D00C1FB5D /* PBXTargetDependency */,
+			);
+			name = LugaTests;
+			productName = SpinTests;
+			productReference = ECB90AE624A8CC1D00C1FB5D /* LugaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB90AF024A8CC1D00C1FB5D /* LugaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB90B0024A8CC1D00C1FB5D /* Build configuration list for PBXNativeTarget "LugaUITests" */;
+			buildPhases = (
+				ECB90AED24A8CC1D00C1FB5D /* Sources */,
+				ECB90AEE24A8CC1D00C1FB5D /* Frameworks */,
+				ECB90AEF24A8CC1D00C1FB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB90AF324A8CC1D00C1FB5D /* PBXTargetDependency */,
+			);
+			name = LugaUITests;
+			productName = SpinUITests;
+			productReference = ECB90AF124A8CC1D00C1FB5D /* LugaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ECF039A62A524BB700FAEC9F /* LugaWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF039CB2A524BB900FAEC9F /* Build configuration list for PBXNativeTarget "LugaWatch Watch App" */;
+			buildPhases = (
+				ECF039A32A524BB700FAEC9F /* Sources */,
+				ECF039A42A524BB700FAEC9F /* Frameworks */,
+				ECF039A52A524BB700FAEC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LugaWatch Watch App";
+			productName = "LugaWatch Watch App";
+			productReference = ECF039A72A524BB700FAEC9F /* LugaWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF039B52A524BB900FAEC9F /* LugaWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF039CF2A524BB900FAEC9F /* Build configuration list for PBXNativeTarget "LugaWatch Watch AppTests" */;
+			buildPhases = (
+				ECF039B22A524BB900FAEC9F /* Sources */,
+				ECF039B32A524BB900FAEC9F /* Frameworks */,
+				ECF039B42A524BB900FAEC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF039B82A524BB900FAEC9F /* PBXTargetDependency */,
+			);
+			name = "LugaWatch Watch AppTests";
+			productName = "LugaWatch Watch AppTests";
+			productReference = ECF039B62A524BB900FAEC9F /* LugaWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF039BF2A524BB900FAEC9F /* LugaWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF039D22A524BB900FAEC9F /* Build configuration list for PBXNativeTarget "LugaWatch Watch AppUITests" */;
+			buildPhases = (
+				ECF039BC2A524BB900FAEC9F /* Sources */,
+				ECF039BD2A524BB900FAEC9F /* Frameworks */,
+				ECF039BE2A524BB900FAEC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF039C22A524BB900FAEC9F /* PBXTargetDependency */,
+			);
+			name = "LugaWatch Watch AppUITests";
+			productName = "LugaWatch Watch AppUITests";
+			productReference = ECF039C02A524BB900FAEC9F /* LugaWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB90AC424A8CC1A00C1FB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Murray Buchanan";
+				TargetAttributes = {
+					ECB90ACB24A8CC1A00C1FB5D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					ECB90AE524A8CC1D00C1FB5D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = ECB90ACB24A8CC1A00C1FB5D;
+					};
+					ECB90AF024A8CC1D00C1FB5D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = ECB90ACB24A8CC1A00C1FB5D;
+					};
+					ECF039A62A524BB700FAEC9F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ECF039B52A524BB900FAEC9F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ECF039A62A524BB700FAEC9F;
+					};
+					ECF039BF2A524BB900FAEC9F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ECF039A62A524BB700FAEC9F;
+					};
+				};
+			};
+			buildConfigurationList = ECB90AC724A8CC1A00C1FB5D /* Build configuration list for PBXProject "Luga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB90AC324A8CC1A00C1FB5D;
+			productRefGroup = ECB90ACD24A8CC1A00C1FB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB90ACB24A8CC1A00C1FB5D /* Luga */,
+				ECB90AE524A8CC1D00C1FB5D /* LugaTests */,
+				ECB90AF024A8CC1D00C1FB5D /* LugaUITests */,
+				ECF039A62A524BB700FAEC9F /* LugaWatch Watch App */,
+				ECF039B52A524BB900FAEC9F /* LugaWatch Watch AppTests */,
+				ECF039BF2A524BB900FAEC9F /* LugaWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB90ACA24A8CC1A00C1FB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB90ADB24A8CC1A00C1FB5D /* Main.storyboard in Resources */,
+				ECB90ADD24A8CC1C00C1FB5D /* Assets.xcassets in Resources */,
+				ECB90AE024A8CC1C00C1FB5D /* LaunchScreen.storyboard in Resources */,
+				ECB66B63265D1A160026370B /* astroSpace.ttf in Resources */,
+				ECD4665E293C561600AF0E67 /* Assets.xcassets in Resources */,
+				ECD4665D293C561600AF0E67 /* trail.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB90AE424A8CC1D00C1FB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB90AEF24A8CC1D00C1FB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039A52A524BB700FAEC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF039B12A524BB900FAEC9F /* Preview Assets.xcassets in Resources */,
+				ECF039AE2A524BB900FAEC9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039B42A524BB900FAEC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039BE2A524BB900FAEC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB90AC824A8CC1A00C1FB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF039A22A5249D100FAEC9F /* Haptics.swift in Sources */,
+				ECB90AD624A8CC1A00C1FB5D /* GameScene.swift in Sources */,
+				ECF039A02A52492D00FAEC9F /* GameMetrics.swift in Sources */,
+				ECB90AD824A8CC1A00C1FB5D /* GameViewController.swift in Sources */,
+				ECF0399E2A5248DA00FAEC9F /* UI.swift in Sources */,
+				ECB90AD024A8CC1A00C1FB5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB90AE224A8CC1D00C1FB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB90AED24A8CC1D00C1FB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039A32A524BB700FAEC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF039AC2A524BB700FAEC9F /* ContentView.swift in Sources */,
+				ECF039AA2A524BB700FAEC9F /* LugaWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039B22A524BB900FAEC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF039BB2A524BB900FAEC9F /* LugaWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF039BC2A524BB900FAEC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF039C52A524BB900FAEC9F /* LugaWatch_Watch_AppUITests.swift in Sources */,
+				ECF039C72A524BB900FAEC9F /* LugaWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB90AE824A8CC1D00C1FB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB90ACB24A8CC1A00C1FB5D /* Luga */;
+			targetProxy = ECB90AE724A8CC1D00C1FB5D /* PBXContainerItemProxy */;
+		};
+		ECB90AF324A8CC1D00C1FB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB90ACB24A8CC1A00C1FB5D /* Luga */;
+			targetProxy = ECB90AF224A8CC1D00C1FB5D /* PBXContainerItemProxy */;
+		};
+		ECF039B82A524BB900FAEC9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF039A62A524BB700FAEC9F /* LugaWatch Watch App */;
+			targetProxy = ECF039B72A524BB900FAEC9F /* PBXContainerItemProxy */;
+		};
+		ECF039C22A524BB900FAEC9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF039A62A524BB700FAEC9F /* LugaWatch Watch App */;
+			targetProxy = ECF039C12A524BB900FAEC9F /* PBXContainerItemProxy */;
+		};
+		ECF039C92A524BB900FAEC9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF039A62A524BB700FAEC9F /* LugaWatch Watch App */;
+			targetProxy = ECF039C82A524BB900FAEC9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB90AD924A8CC1A00C1FB5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB90ADA24A8CC1A00C1FB5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB90ADE24A8CC1C00C1FB5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB90ADF24A8CC1C00C1FB5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB90AF824A8CC1D00C1FB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB90AF924A8CC1D00C1FB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB90AFB24A8CC1D00C1FB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TQ8QN9GC7;
+				INFOPLIST_FILE = Spin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Luga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.Luga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB90AFC24A8CC1D00C1FB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TQ8QN9GC7;
+				INFOPLIST_FILE = Spin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Luga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.Luga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB90AFE24A8CC1D00C1FB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.SpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luga.app/Luga";
+			};
+			name = Debug;
+		};
+		ECB90AFF24A8CC1D00C1FB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.SpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luga.app/Luga";
+			};
+			name = Release;
+		};
+		ECB90B0124A8CC1D00C1FB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.SpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spin;
+			};
+			name = Debug;
+		};
+		ECB90B0224A8CC1D00C1FB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.SpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spin;
+			};
+			name = Release;
+		};
+		ECF039CC2A524BB900FAEC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LugaWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TQ8QN9GC7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LugaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.MurrayBuchanan.Luga;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.Luga.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		ECF039CD2A524BB900FAEC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LugaWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TQ8QN9GC7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LugaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.MurrayBuchanan.Luga;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MurrayBuchanan.Luga.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		ECF039D02A524BB900FAEC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4D6ADTCNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mb-4.LugaWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LugaWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LugaWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		ECF039D12A524BB900FAEC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4D6ADTCNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mb-4.LugaWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LugaWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LugaWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		ECF039D32A524BB900FAEC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4D6ADTCNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mb-4.LugaWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "LugaWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		ECF039D42A524BB900FAEC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A4D6ADTCNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mb-4.LugaWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "LugaWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB90AC724A8CC1A00C1FB5D /* Build configuration list for PBXProject "Luga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB90AF824A8CC1D00C1FB5D /* Debug */,
+				ECB90AF924A8CC1D00C1FB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB90AFA24A8CC1D00C1FB5D /* Build configuration list for PBXNativeTarget "Luga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB90AFB24A8CC1D00C1FB5D /* Debug */,
+				ECB90AFC24A8CC1D00C1FB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB90AFD24A8CC1D00C1FB5D /* Build configuration list for PBXNativeTarget "LugaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB90AFE24A8CC1D00C1FB5D /* Debug */,
+				ECB90AFF24A8CC1D00C1FB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB90B0024A8CC1D00C1FB5D /* Build configuration list for PBXNativeTarget "LugaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB90B0124A8CC1D00C1FB5D /* Debug */,
+				ECB90B0224A8CC1D00C1FB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF039CB2A524BB900FAEC9F /* Build configuration list for PBXNativeTarget "LugaWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF039CC2A524BB900FAEC9F /* Debug */,
+				ECF039CD2A524BB900FAEC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF039CF2A524BB900FAEC9F /* Build configuration list for PBXNativeTarget "LugaWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF039D02A524BB900FAEC9F /* Debug */,
+				ECF039D12A524BB900FAEC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF039D22A524BB900FAEC9F /* Build configuration list for PBXNativeTarget "LugaWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF039D32A524BB900FAEC9F /* Debug */,
+				ECF039D42A524BB900FAEC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB90AC424A8CC1A00C1FB5D /* Project object */;
+}
